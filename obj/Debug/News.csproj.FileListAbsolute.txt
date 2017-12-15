@@ -1,0 +1,4 @@
+c:\users\farrukh ahmed\documents\visual studio 2010\Projects\News\News\bin\News.dll
+c:\users\farrukh ahmed\documents\visual studio 2010\Projects\News\News\bin\News.pdb
+c:\users\farrukh ahmed\documents\visual studio 2010\Projects\News\News\obj\Debug\News.dll
+c:\users\farrukh ahmed\documents\visual studio 2010\Projects\News\News\obj\Debug\News.pdb
