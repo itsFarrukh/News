@@ -9,7 +9,12 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    <asp:Repeater ID="SearchResults" runat="server"></asp:Repeater>
+    <asp:Repeater ID="Results" runat="server">
+    
+    <ItemTemplate>
+    <h3><a href='<%# Eval("Url") %>' runat="server"><%# DataBinder.Eval(Container.DataItem, "Title")%></a></h3>
+    </ItemTemplate>
+    </asp:Repeater>
     </div>
     </form>
 </body>

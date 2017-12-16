@@ -26,12 +26,12 @@ namespace News
             else 
             {
                 Crawler crawler = new Crawler();
-                List<News.Resources.Content> response = new List<News.Resources.Content>();
+                List<Contents> response = new List<Contents>();
                 response=crawler.StartCrawling();
                 if(response.Count>0)
                 {
                     Session["Articles"] = response;
-                    Response.Redirect("/SearchResults.aspx");
+                    Response.Redirect("SearchResults.aspx");
                 }
             }
         }

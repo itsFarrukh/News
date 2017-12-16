@@ -5,7 +5,7 @@ using System.Web;
 
 namespace News.Resources
 {
-    public class Content
+    public class Contents
     {
         public string Title { get; set; }
         public string Url { get; set; }
