@@ -22,3 +22,6 @@ C:\Users\Farrukh Ahmed\documents\visual studio 2010\Projects\News\News\bin\Syste
 C:\Users\Farrukh Ahmed\documents\visual studio 2010\Projects\News\News\bin\System.Threading.Tasks.xml
 C:\Users\Farrukh Ahmed\documents\visual studio 2010\Projects\News\News\obj\Debug\News.csproj.App.config
 C:\Users\Farrukh Ahmed\documents\visual studio 2010\Projects\News\News\obj\Debug\News.csprojResolveAssemblyReference.cache
+C:\Users\Farrukh Ahmed\documents\visual studio 2010\Projects\News\News\bin\Newtonsoft.Json.dll
+C:\Users\Farrukh Ahmed\documents\visual studio 2010\Projects\News\News\bin\Newtonsoft.Json.pdb
+C:\Users\Farrukh Ahmed\documents\visual studio 2010\Projects\News\News\bin\Newtonsoft.Json.xml

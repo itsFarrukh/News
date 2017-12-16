@@ -11,7 +11,12 @@ namespace News.App_Code
 
 
 
+        public void StartCrawling()
+        {
+            //string url = "http://edition.cnn.com/search/?q=Trump";
+            //var httpClient = new HttpClient();
 
+        }
 
 
     }
