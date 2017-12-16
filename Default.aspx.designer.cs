@@ -10,7 +10,16 @@
 namespace News {
     
     
-    public partial class _Default {
+    public partial class Default {
+        
+        /// <summary>
+        /// Welcome control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm Welcome;
         
         /// <summary>
         /// SearchText control.

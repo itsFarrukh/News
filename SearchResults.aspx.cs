@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using News.Resources;
+using TweetSharp;
 
 namespace News
 {
@@ -12,12 +13,17 @@ namespace News
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["Articles"]!=null) 
+            if (Session["Articles"]!=null && Session["Tweets"]!=null) 
             {
                 List<Contents> contents = new List<Contents>();
                 contents = (List<Contents>)Session["Articles"];
                 Results.DataSource = contents;
                 Results.DataBind();
+                List<TwitterStatus> tweets = new List<TwitterStatus>();
+                tweets = (List<TwitterStatus>) Session["Tweets"];
+                TweetsRepeater.DataSource = tweets;
+                TweetsRepeater.DataBind();
+
             }
             
         }
