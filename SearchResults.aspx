@@ -9,8 +9,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div style="width: 100%">
-        <div style="float: left; width: 60%">
+    <div class="container">
+        <div class="leftdiv">
             <h1>
                 Articles about Trump
             </h1>
@@ -28,9 +28,8 @@
                 </FooterTemplate>
             </asp:Repeater>
         </div>
-        <div class="verticalLine">
-        </div>
-        <div style="float: right; width: 40%;">
+   
+        <div class="rightdiv">
             <h1>
                 Tweets of Donald Trump</h1>
             <br />
@@ -48,6 +47,10 @@
                     </ol>
                 </FooterTemplate>
             </asp:Repeater>
+        </div>
+        <div class="btndiv">
+        <asp:Button ID="CoolBtn" Text="I don't wanna read about trump anymore" runat="server" OnClick="CoolBtn_Click" CssClass="enterBtn" />
+        
         </div>
     </div>
     </form>

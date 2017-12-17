@@ -99,3 +99,22 @@ h1
  letter-spacing: -2px;
  font-weight: bold;
 }
+.btndiv
+{
+    clear:both;
+    text-align:center;
+}
+.rightdiv
+{
+    float:right;
+    width:40%
+}
+.leftdiv
+{
+    float:left;
+    width: 60%;
+}
+.container
+{
+    width: 100%;
+}

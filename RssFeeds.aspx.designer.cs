@@ -10,7 +10,7 @@
 namespace News {
     
     
-    public partial class SearchResults {
+    public partial class RssFeeds {
         
         /// <summary>
         /// form1 control.
@@ -22,30 +22,12 @@ namespace News {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Results control.
+        /// RssRepeater control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater Results;
-        
-        /// <summary>
-        /// TweetsRepeater control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater TweetsRepeater;
-        
-        /// <summary>
-        /// CoolBtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CoolBtn;
+        protected global::System.Web.UI.WebControls.Repeater RssRepeater;
     }
 }

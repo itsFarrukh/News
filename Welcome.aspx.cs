@@ -17,15 +17,14 @@ namespace News
         }
         protected void Search_Click(object sender, EventArgs e)
         {
+
+            WhatsNewBtn.Enabled = false;
             Crawler crawler = new Crawler();
             List<Contents> response = new List<Contents>();
             response = crawler.StartCrawling();
             IEnumerable<TwitterStatus> tweets = crawler.getTweetsOfTrump();
-            TwitterStatus tweet = new TwitterStatus();
-            // string a = tweets.FirstOrDefault().Author;
-            string b = tweets.FirstOrDefault().Text;
-            string c = tweets.FirstOrDefault().Source;
-            if (response.Count > 0)
+                  
+            if (response.Count > 0 && tweets.Count() > 0)
             {
                 Session["Articles"] = response;
                 Session["Tweets"] = tweets;

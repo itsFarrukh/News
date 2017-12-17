@@ -99,6 +99,7 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Images\TrumpGif.gif" />
+    <Content Include="RssFeeds.aspx" />
     <Content Include="SearchResults.aspx" />
     <Content Include="Styles\MySite.css" />
     <Content Include="Styles\Site.css" />
@@ -151,6 +152,15 @@
     </Compile>
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Constants.cs" />
+    <Compile Include="Resources\Feeds.cs" />
+    <Compile Include="RssFeeds.aspx.cs">
+      <DependentUpon>RssFeeds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RssFeeds.aspx.designer.cs">
+      <DependentUpon>RssFeeds.aspx</DependentUpon>
     </Compile>
     <Compile Include="Welcome.aspx.cs">
       <DependentUpon>Welcome.aspx</DependentUpon>

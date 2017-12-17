@@ -27,5 +27,16 @@ namespace News
             }
             
         }
+        protected void CoolBtn_Click(object sender, EventArgs e) 
+        {
+            CoolBtn.Enabled = false;
+            Crawler crawler = new Crawler();
+            IEnumerable<Feeds> feeds = crawler.GetCNNRssFeed();
+            if(feeds.Count()>0)
+            {
+                Session["Rss"] = feeds;
+                Response.Redirect("RssFeeds.aspx");
+            }
+        }
     }
 }
