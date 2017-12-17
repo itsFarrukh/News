@@ -7,7 +7,6 @@ namespace News.Resources
 {
     public class Response
     {
-        
-        public List<Result> result { get; set; }
+      public List<Result> result { get; set; }
     }
 }

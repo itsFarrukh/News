@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="ftp://waws-prod-sn1-123.ftp.azurewebsites.windows.net/site/wwwroot" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="http://whatsnewwithtrum.azurewebsites.net" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="True" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FTP" replaceMatchingFiles="True" userName="whatsnewwithtrum\$whatsnewwithtrum" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARAEXUJHKx0eezP3w8GhBUQAAAAACAAAAAAAQZgAAAAEAACAAAACFlcezr5JFE+dzUoaCE00EIxhwHIvlLbLCJmtgvSU86gAAAAAOgAAAAAIAACAAAACx47Hs+fW/mliP1iz/NO1NR5WjgiTJPgrCMmmvnwrsHYAAAABToT746cjr5SuY69F9QSxn+/qxopPg6P/WIvfRz0dZncuymN0OvI8fMBcIl+SmD+kbu+QRLIS6a/X5w3b99rFpOYaAFNRzE0uh390cD3ySdtnuHEND5B6M2J9jMa6aQDWQI/FBYsuWYD71QEF2ADw0BW08RlZEjf3VrZT0LGaIqkAAAAAeLOjUYQXWGI71uev02JkyKdS/nWfwjIP03O5ZSbpeOXfLkteIcraM7l5Ka3m+k5bC4Hiu18rGtjHWt8YtIFRT" SelectedForPublish="True">
+    <file relUrl="Styles/MySite.css" publishTime="12/17/2017 11:19:41" />
+    <file relUrl="Global.asax" publishTime="12/15/2017 21:39:26" />
+    <file relUrl="Site.Master" publishTime="12/16/2017 18:58:03" />
+    <file relUrl="bin/Hammock.ClientProfile.dll" publishTime="12/16/2017 16:31:15" />
+    <file relUrl="bin/News.pdb" publishTime="12/17/2017 14:45:22" />
+    <file relUrl="bin/System.Net.Http.Extensions.xml" publishTime="12/15/2017 23:19:11" />
+    <file relUrl="bin/System.Net.Http.dll" publishTime="12/15/2017 23:19:11" />
+    <file relUrl="bin/System.Net.Http.Primitives.dll" publishTime="12/15/2017 23:19:11" />
+    <file relUrl="bin/System.Net.Http.xml" publishTime="12/15/2017 23:19:11" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="12/16/2017 16:31:15" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="12/15/2017 21:39:26" />
+    <file relUrl="bin/System.IO.xml" publishTime="12/15/2017 23:19:10" />
+    <file relUrl="bin/System.Runtime.xml" publishTime="12/15/2017 23:19:10" />
+    <file relUrl="packages.config" publishTime="12/16/2017 16:31:30" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="12/15/2017 21:39:26" />
+    <file relUrl="bin/TweetSharp.dll" publishTime="12/16/2017 16:31:15" />
+    <file relUrl="bin/System.Net.Http.Primitives.xml" publishTime="12/15/2017 23:19:11" />
+    <file relUrl="bin/TweetSharp.pdb" publishTime="12/16/2017 16:31:15" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="12/16/2017 16:31:15" />
+    <file relUrl="bin/System.IO.dll" publishTime="12/15/2017 23:19:10" />
+    <file relUrl="bin/System.Net.Http.WebRequest.dll" publishTime="12/15/2017 23:19:11" />
+    <file relUrl="bin/System.Threading.Tasks.dll" publishTime="12/15/2017 23:19:10" />
+    <file relUrl="bin/HtmlAgilityPack.dll" publishTime="10/03/2009 13:05:38" />
+    <file relUrl="Welcome.aspx" publishTime="12/16/2017 19:45:30" />
+    <file relUrl="bin/HtmlAgilityPack.pdb" publishTime="10/03/2009 13:05:36" />
+    <file relUrl="Web.config" publishTime="12/17/2017 19:21:17" />
+    <file relUrl="bin/System.Net.Http.Extensions.dll" publishTime="12/15/2017 23:19:11" />
+    <file relUrl="bin/Hammock.ClientProfile.pdb" publishTime="12/16/2017 16:31:15" />
+    <file relUrl="bin/News.dll" publishTime="12/17/2017 14:45:24" />
+    <file relUrl="Images/TrumpGif.gif" publishTime="12/16/2017 18:30:36" />
+    <file relUrl="bin/System.Runtime.dll" publishTime="12/15/2017 23:19:10" />
+    <file relUrl="App_Code/Crawler.cs" publishTime="12/16/2017 00:32:25" />
+    <file relUrl="RssFeeds.aspx" publishTime="12/17/2017 11:09:08" />
+    <file relUrl="bin/HtmlAgilityPack.xml" publishTime="10/03/2009 13:05:36" />
+    <file relUrl="bin/System.Net.Http.WebRequest.xml" publishTime="12/15/2017 23:19:11" />
+    <file relUrl="SearchResults.aspx" publishTime="12/17/2017 10:49:05" />
+    <file relUrl="bin/System.Threading.Tasks.xml" publishTime="12/15/2017 23:19:10" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="12/15/2017 21:39:26" />
+  </publishProfile>
+</publishData>
